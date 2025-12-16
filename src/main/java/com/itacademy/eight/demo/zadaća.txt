@@ -1,0 +1,9 @@
+Zadatak 1:
+
+String sentence = "Pogledaj kroz prozor i vidjet ćeš da pada snijeg, moj prozor u svijet je livada na kojoj pada snijeg";
+
+
+Želimo da doradimo ContinueWithLabelDemo na način da izbrojimo koliko se puta
+riječ sadrži u rečenici.
+
+BONUS: analizirati nedostatke našeg rješenja ContinueWithLabelDemo

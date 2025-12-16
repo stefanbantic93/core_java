@@ -1,0 +1,28 @@
+Zadatak 1:
+Postavljen je neki tekst "Petar Pan je pojeo pet plavih šljiva".
+Program treba da izbroji koliko se puta karakter 'P' ili 'p' nalazi u rečenici.
+Program je case insensitive.
+HINT: String text = "Petar Pan je pojeo pet plavih šljiva";
+      char[] arrayOfChars = text.toCharArray();
+
+Rezultat je poruka: "Slovo p ili P se nalazi u datom tekstu 5 puta".
+
+Zadatak 2:
+Upgrade na zadatak 1 gdje puštate korisnika da unese slovo. Dakle, nije poznato da li je malo
+ili veliko slovo, a program je i dalje case insensitive.
+Ukoliko ne možete uradite da bude case sensitive.
+TRIK: ASCII TABELA
+
+
+Zadatak 3:
+Imate jednu rečenicu i riječ.
+Rečenica: "Pogledaj kroz prozor i vidjet ćeš da pada snijeg"
+Riječ: "proz"
+
+Program treba da radi sljedeće:
+Potrebno je da provjerite da li je riječ sadržana u rečenici odnosno ne riječ nego niz karaktera.
+Nije dozvoljeno koristiti ni jednu funkciju koja postoji u String klasi. Morate konvertovati i riječ i rečenicu u niz i
+tako riješiti zadatak.
+
+HINT: ovdje mora biti case sensitive provjera, tj. 'p' nije isto što i 'P'
+Rezultat: niz karaktera u riječi je sadržan u rečenici ILI niz karaktera u riječi NIJE sadržan u rečenici.
